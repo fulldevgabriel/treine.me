@@ -1,0 +1,36 @@
+:root{
+    --primary-color: rgb(153, 153, 153);
+    --secundary-color: rgb(90, 185, 165);
+    --hard-gray: rgb(122, 122, 122);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-titles{
+    display: flex;
+    gap: 7vh;
+    margin-top: 7vh;
+
+}
+
+.sub-titles a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.sub-titles a:hover{
+    color: rgb(122, 122, 122);
+
+}
+
+.title-treine h1{
+    color: rgb(90, 185, 165);
+    opacity: 56%;
+    font-size: 28px;
+    font-weight: 600;
+}

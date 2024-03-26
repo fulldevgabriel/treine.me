@@ -1,0 +1,21 @@
+footer{
+    position: fixed;
+    padding-top: 7rem;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: rgb(153, 153, 153);
+    background: linear-gradient(to top, rgba(90, 185, 165, 0.7), rgba(255, 255, 255, 0));
+}
+
+a{
+    font-weight: 550;
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
